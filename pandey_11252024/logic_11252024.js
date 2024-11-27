@@ -23,7 +23,7 @@ for (let i = 0; i < data.length; i++) {
   let location = data[i];
   let marker = L.marker([location.Latitude, location.Longitude])
     .bindPopup(`<h3>${location['Location Name']}</h3><hr<p>Phone: ${location['Phone Number'] || "N/A"}</p>
-         <p>Address: ${location['Street Address'] || "N/A"}, ${location['City'] || "N/A"}</p>
+         <p>Address: ${location['Street Address'] || "N/A"}, ${location['City'] || "N/A"}, ${location['State'] || "N/A"}</p>
          <p><a href="${location['Website']}" target="_blank">${location['Website'] || "Website"}</a></p>`
       );
   markers.addLayer(marker);
