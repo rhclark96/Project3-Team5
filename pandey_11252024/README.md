@@ -1,6 +1,6 @@
 # Project3-Team5
 
-# Project title: COVID-19 vaccination provider locations.
+# Project title: COVID-19 Vaccination Provider Locations.
 
 ## Overview: The main objective of our project was to help public find COVID-19 vaccination provider locations. 
 
