@@ -5,7 +5,6 @@
 ## Overview: The main objective of our project was to help public find COVID-19 vaccination provider locations. 
 
 
-
 ## Usage instructions
 Broadly, the cluster and marker map provides number of locations in a city. Users can zoom in to narrow the area and find the vaccine provider locations near their neighborhood.
 
