@@ -1,15 +1,15 @@
 # Project3-Team5
 
-# Project title: COVID-19 vaccination provider locations.
+# Project title: COVID-19 Vaccination Provider Locations.
 
 ## Overview: The main objective of our project was to help public find COVID-19 vaccination provider locations. 
 
 
 ## Usage instructions
-Broadly, the cluster and marker map provides number of locations in a city. Users can zoom in to narrow the area and find the vaccine provider locations near their neighborhood.
+Broadly, the cluster and marker map provides number of vaccine providers locations in a city. Users can zoom in to narrow the area and find the vaccine provider locations near their neighborhood.
 
 Each location is marked with a marker. Marker popup has information about the provider’s name, phone number, address as well as the website. Users can get more information about the location through the website and make the appointments as well.
-The map has dropdown menu to locate the providers which have vaccine in-stock and the locations which accepts insurance.
+The map has dropdown menu to locate the providers which accepts walk-ins and insurance.
 
 Users can also search for a nearby vaccine provider location by zipcode.
 
