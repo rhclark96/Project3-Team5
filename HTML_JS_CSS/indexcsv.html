@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Basic Map</title>
+  <title>COVID-19 Vaccination Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -15,16 +16,64 @@
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
 
+    <!-- Load geocoding plugin after Leaflet -->
+  <link rel="stylesheet" href="https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.6/leaflet-geocoder-locationiq.min.css">
+  <script src="https://maps.locationiq.com/v2/libs/leaflet-geocoder/1.9.6/leaflet-geocoder-locationiq.min.js"></script>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Marker cluster JavaScript code -->
+   <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Marker cluster CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <!-- The div where we'll insert our map -->
-  <div id="map"></div>
-
-  <!-- JavaScript file -->
-  <script type="text/javascript" src="logic.js"></script>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 p-3 text-center text-light bg-dark">
+        <h1>COVID-19 Vaccination Dashboard</h1>
+        <p>Developed by Rowan Clark, Jorge Martinez, Krishan Pandey, and Tugce Terzioglu for UCB Data Bootcamp </p>
+      </div>
+    </div>
+  <br>
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-md-4 text-center bg-light">
+        
+          <h5>About COVID-19 Vaccinations:</h5>
+          <p> Imortant info about vaccines!</p>
+          <p>More important information about vaccines, herd immunity, etc. Things to convince people that vaccines are useful! </p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    </div class="row justify-content-center">
+      <div class="col-md-12 text-center">
+        <h3>Use this map to find COVID-19 vaccine providers in your area.  </h3>
+        <p>List of COVID-19 vaccine locations updated August 1, 2024 according to the <a href="https://data.cdc.gov/Vaccinations/Vaccines-gov-COVID-19-vaccinating-provider-locatio/5jp2-pgaw">CDC</a>.</p>
+      </div>
+    </div>
+  </div class="container">
+        <!-- The div where we'll insert our map -->
+        <div id="map"></div>
+        <!-- For the search box -->
+        <div id="search-box"></div>
+        <!-- To display the result -->
+        <div id="result"></div>
+      </div>
+    </div>
+    
+    <!-- JavaScript file -->
+    <script type="text/javascript" src="logiccsv.js"></script>
 </body>
 
 </html>
