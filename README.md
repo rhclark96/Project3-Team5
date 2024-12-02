@@ -20,4 +20,5 @@ This dataset is from a public source (CDC, DHHS) and did not have any personal i
 Data analyses indicated that the urban centers had relatively higher density of vaccine providers compared to the rural areas. Our suggestion is to increase the number of locations in rural areas to enable easy access to COVID-19 vaccines. 
 
 ## References
- The dataset was downloaded from CDC, DHHS (https://catalog.data.gov/dataset/vaccines-gov-covid-19-vaccinating-provider-locations-181de).
+The dataset was downloaded from CDC, DHHS (https://catalog.data.gov/dataset/vaccines-gov-covid-19-vaccinating-provider-locations-181de).
+Yee R, Carranza D, Kim C, Trinidad J, Tobias JL, Bhatkoti R, et al. COVID-19 Vaccination Site Accessibility, United States, December 11, 2020–March 29, 2022. Emerging Infectious Diseases. 2024;30(5):947-955. https://doi.org/10.3201/eid3005.230357
